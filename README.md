@@ -39,3 +39,6 @@ En su navegador entrar a http://127.0.0.1:8529/ debe mostrarse la interfaz corre
 
 La importación de datos se hará en clase.
 
+---
+⌨️ con ❤️ por [Jaime Rodríguez](https://github.com/rpjosejaime) 😊
+
