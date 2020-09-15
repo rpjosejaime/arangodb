@@ -1,7 +1,9 @@
 # ArangoDB Container
 ## Comenzando 🚀
 Descargar el archivo docker-compose.yaml y guardarlo en $HOME/username o (se puede guardar en otra ubicación). Los datos JSON guardarlos en la carpeta de su elección. 
+
 ***Nota*** Puedes cambiar el password por el de tu preferencia
+
 ```
 version: '3'
 services:
