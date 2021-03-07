@@ -17,8 +17,10 @@ services:
     volumes:
       - ./arangodb/arangodb_data_container:/var/lib/arangodb3
       - ./arangodb/arangodb_apps_data_container:/var/lib/arangodb3-apps
-    restart: always
+    restart: unless-stopped
 ```
+
+***Actualización:*** Se cambio la linea ***8529:8529*** por ***127.0.0.1:8529:8529*** ya que **Docker** estaba saltando el **Firewall** y el puerto 8529 quedaba expuesto aún si no estaba permitido en el **Firewall**. Se cambio para que solo se redirija el puerto localmente en el servidor. 
 
 ### Pre-requisitos 📋
 Instalar Docker, sustituir $Username por su nombre de usuario.
