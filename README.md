@@ -88,6 +88,7 @@ Para eliminar una regla puede usar:
 sudo ufw status numbered
 ```
 Se enumeraran las reglas. Para eliminar una basta con poner el número de la regla que quiere quitar.
+
 **Ejemplo:**
 ```
 sudo ufw delete 4
