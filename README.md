@@ -94,5 +94,5 @@ sudo ufw delete 4
 ```
 Con esto queda configurado nuestro **ArangoDB** con la seguridad básica.
 
-⌨️ con ❤️ por [Jaime Rodríguez] (https://resumen.rpjosejaime.com) 😊
+⌨️ con ❤️ por [Jaime Rodríguez](https://resumen.rpjosejaime.com) 😊
 
