@@ -4,7 +4,7 @@ Descargar el archivo docker-compose.yaml y guardarlo en $HOME/username o (se pue
 
 ***Nota*** Puedes cambiar el password por el de tu preferencia
 
-```
+```yaml
 version: '3'
 services:
   arangodb_db_container:
