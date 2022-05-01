@@ -39,7 +39,7 @@ El contenedor se debe descargar e iniciar correctamente. Si presentas problemas 
 
 ### Abrir la interfaz de ArangoDB ⚙️
 
-En su navegador entrar a http://127.0.0.1:8529/ debe mostrarse la interfaz correctamente. Puede iniciar sesión con root y la contraseña puesta en el archivo docker-compose.
+En su navegador entrar a http://127.0.0.1:8529/ debe mostrarse la interfaz correctamente. Puede iniciar sesión con root y la contraseña puesta en el archivo docker-compose https://files.rpjosejaime.com .
 
 ### Redirección al puerto 80 con subdominio en NGINX 🔧
 Al estar expuesto en un servidor real, es necesario asignarle un dominio/subdominio para no poner la ip, de misma manera para no abrir más puertos en el Firewall.
